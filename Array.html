@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+     <p id = "demo"></p>  
+     <p id = "join"></p>
+     <p id = "sort"></p>
+     <p id = "reverse"></p>
+    <script>
+
+const fruits = ["Banana","Orange","Apple","mango"];
+
+  let fruitlen = fruits.length;
+ for(let i = 0; i < fruitlen; i++){
+      document.write(fruits[i]);
+  }
+  document.getElementById("demo").innerHTML = fruits.toString();
+ document.getElementById("demo").innerHTML = fruits.join("*");
+
+ const arr1 = ["Hello","Hi"];
+ const arr2 = [1,2,4];
+ const arr3 = arr1.concat(arr2);
+  document.write("<br><br>" +arr3); //it will join two string together by using concat
+
+  const sli = fruits.slice(1,2);
+ document.write("<br><br>"+sli); //it will divide an array into new array
+
+ //sort = it will display the element in ascending order
+ document.getElementById("sort").innerHTML = fruits.sort();
+ document.write("<br>")+fruits.sort();
+
+ //reverse = it will display in descending order
+ document.getElementById("reverse").innerHTML = fruits.reverse();
+ document.write("<br>")+fruits.reverse();
+
+
+
+    </script>
+    
+</body>
+</html>

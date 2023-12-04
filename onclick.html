@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factoralResut</title>
+</head>
+<body>
+    <p id = "result"></p>
+    <button onclick = "fact()">factorial</button>
+   <button onclick = "cal()">calculator</button>
+    <script>
+        function fact()
+        {
+            var n = prompt("please enter your number: ");
+            var  fact  =  1;
+            for(let  i = 1; i <= n; i++)
+            {
+                fact = fact * i;
+            }
+            alert(n+ "factoral is: " +fact);
+        }
+        function cal() {
+        let choice = prompt("Enter your choice:\n1. Add\n2. Subtract\n3. Multiply\n4. Divide");
+        let num1 = prompt("Enter the first number:");
+        let num2 = promp("Enter the second number:");
+        let result;
+        switch (choice) {
+            case '1':
+                result = num1 + num2;
+                break;
+            case '2':
+                result = num1 - num2;
+                break;
+            case '3':
+                result = num1 * num2;
+                break;
+            case '4':
+                result = num1 / num2;
+                break;
+            default:
+               prompt("Invalid operator");
+                return;
+        }
+       prompt("Result: " + result);
+    }
+
+     
+ </script>
+</body>
+</html>

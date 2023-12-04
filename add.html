@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <link rel="stylesheet" type="text/css" href="add.css">
+</head>
+<body>
+    <button type="button" onclick="addEmployee()">Add Employee</button>
+
+    <form id="employeeForm">
+        <h2>Add Employee</h2>
+        <label for="employeeName">Employee Name:</label>
+        <input type="text" id="employeeName" name="employeeName" required>
+
+        <label for="employeeDate">Employee Date:</label>
+        <input type="date" id="employeeDate" name="employeeDate" required>
+
+       
+    </form>
+
+    <script>
+        function addEmployee() {
+            // Get input values
+            var employeeName = document.getElementById('employeeName').value;
+            var employeeDate = document.getElementById('employeeDate').value;
+
+            // You can perform additional validation if needed
+
+            // Display the information (you can replace this with your logic to store the data)
+            alert('Employee added successfully!\n\nEmployee Name: ' + employeeName + '\nEmployee Date: ' + employeeDate);
+
+            // Clear the form fields
+            document.getElementById('employeeName').value = '';
+            document.getElementById('employeeDate').value = '';
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+</head>
+<body>
+    <script>
+
+        //logical operators
+       
+            if (Number > 20 && Number < 30){
+                console.log("the number is greater than 20 and less than 30.");
+            }else{
+                console.log("the number is not same");
+            }
+
+            //taking user input  using prompt
+            let userinput = prompt("enter the number:");
+
+            //converting user input to a number using parseint
+            let number = parseInt(userinput);
+
+            //checking if the number is both greater than 10 and less than 20
+            if("number > 20 && number < 30"){
+                console.log("the number does not match the both condition")
+            }
+            
+            //assumsing age is taken as user input
+            let age = 15;
+
+            if((age >= 12 && age <= 20) || age >= 70){
+                console.log("the person is a tenage ");
+            }else{
+                console.log("the person is nor the teenage not the citizen ");
+            }
+
+            let givenstring = "Goodmorning";
+            if(! givenstring){
+                console.log("the string is empty");
+            }else{
+                console.log("the string is not empty");
+            }
+
+            let personage = 23;
+
+            if(personage >= 20){
+                console.log("the person is 20");
+            }else{
+                console.log("the person age is less than 20");
+            }
+
+            let a = 30;
+            let b = 30;
+           if(a == b){
+            console.log("the variable a and b is equal");
+           }else{
+            console.log("the variable a and b is  not equal");
+           }
+
+           document.write("what is symbol === indicate");
+           document.write("the === symbol in javascript is called the strict-equality-operator.");
+           document.write("it is used for comparision and checks whether two values are equal in both value and date type");
+
+
+           document.write("e. what is the difference between'==' and '===' equality operator? <br><br>");
+           document.write("<br> '=='(equlity operator):<br> the '==' operator is known as the equlity operator.");
+           document.write("<br>- it performs a comparision between two value after attempting to coerce them to a common type.");
+           document.write("<br>- if the compared values are of different types, javascript will attempt to convert them to the same type before making the comparison");
+           document.write("<br>-after type corction, it checks if the values are equal .<br.<br>");
+
+           document.write("'==='(strict equality operator):<br>");
+           document.write("-the'===' operator is known as the strict equlitu operator.<br>");
+           document.write("-it checks for equlity between two values without performing type coerction.<br>");
+           document.write("-it compares both the values and their types. they must be of the same type  to be considered equal.<br>");
+           document.write("-if the values being compare are of different types,'===' will return false without attempting to convert them.");
+
+           console.log('3===3');
+
+           
+    </script> 
+</body>
+</html>
