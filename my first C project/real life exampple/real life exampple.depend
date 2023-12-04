@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692038593 source:c:\users\athang\desktop\my first c project\real life exampple\main.c
+	<stdio.h>
+	<stdbool.h>
+

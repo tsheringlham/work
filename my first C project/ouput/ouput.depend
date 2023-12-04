@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1693890253 source:c:\users\athang\desktop\ouput\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

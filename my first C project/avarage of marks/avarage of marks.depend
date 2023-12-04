@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693392373 source:c:\users\athang\desktop\avarage of marks\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1693006618 source:c:\users\athang\desktop\my first c project\activity(strlyn)\main.c
+	<stdio.h>
+	<string.h>
+

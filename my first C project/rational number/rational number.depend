@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692211448 source:c:\users\athang\desktop\my first c project\rational number\main.c
+	<stdio.h>
+	<stdbool.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693374231 source:c:\users\athang\desktop\formula fo odd +odd\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692204694 source:c:\users\athang\desktop\my first c project\or gate\main.c
+	<stdio.h>
+	<stdbool.h>
+

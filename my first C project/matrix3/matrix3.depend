@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693286687 source:c:\users\athang\desktop\matrix3\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

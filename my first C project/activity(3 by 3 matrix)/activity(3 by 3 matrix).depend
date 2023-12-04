@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692914347 source:c:\users\athang\desktop\my first c project\activity(3 by 3 matrix)\main.c
+	<stdio.h>
+	<stdbool.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692681054 source:c:\users\athang\desktop\my first c project\nested loop\main.c
+	<stdio.h>
+	<stdbool.h>
+

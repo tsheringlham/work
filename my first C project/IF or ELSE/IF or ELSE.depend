@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692117739 source:c:\users\athang\desktop\my first c project\if or else\main.c
+	<stdio.h>
+	<stdbool.h>
+

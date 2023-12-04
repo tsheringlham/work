@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1692205857 source:c:\users\athang\desktop\my first c project\else if\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1692206430 source:c:\users\athang\desktop\time.c
+	<stdio.h>
+	<stdbool.h>
+

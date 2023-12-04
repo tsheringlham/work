@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1693817999 source:c:\users\athang\desktop\count of negitive\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

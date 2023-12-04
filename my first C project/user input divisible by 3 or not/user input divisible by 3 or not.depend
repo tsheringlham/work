@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693386227 source:c:\users\athang\desktop\user input divisible by 3 or not\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

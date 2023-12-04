@@ -1,0 +1,395 @@
+/* Style the navigation menu */
+.nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 60px;
+    justify-content: flex-end; /* Move the navigation links to the right */
+}
+
+/* Style the logo container */
+.logo-container {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    justify-content: flex-start; /* Move the logo and h1 to the left */
+    padding-top: 4px;
+}
+
+/* Style the logo image */
+.logo {
+    display: block;
+    max-width: 50px;
+    height: auto; 
+    margin-left: -14px;
+  
+}
+
+/* Style the h1 element */
+.logo-container h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 40px; /* for spacing between the logo and h1 */
+}
+
+/* Style the links */
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+.nav, a, .dropbtn{
+    margin-right: 30px;
+}
+/* Style the dropdown button */
+.dropdown .dropbtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown content when hovering over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+    /* Hide the logo and h1 adjust the spacing */
+    .logo-container{
+        display: none;
+    }
+    .nav .logo-container h1{
+        display: none;
+    }
+    /* Reduce the right margin for links */
+    .nav, a, .dropbtn {
+        margin-right: 22px;
+    }
+}
+
+
+/* Nav-bar-css-end-here */
+
+/* Footer-css */
+/* Style for the top section with columns */
+footer .cont-y {
+    padding: 6px 0;
+    margin-left: 100px;
+}
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .col-md-4 {
+    flex: 1;
+    margin: 0 10px;
+}
+/* Style for the heading in each column */
+footer h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* Style for the links in each column */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer ul a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 42px;
+}
+footer ul a, .col-md-4{
+    text-align: justify;
+}
+footer ul a:hover{
+    color: #39A7FF;
+}
+footer ol {
+    list-style: none;
+    padding: 0; /* Reset the default padding on the list */
+}
+footer ol li {
+    margin-bottom: 8px; /* Add more margin between list items */
+    margin-left: 40px;
+}
+
+footer ol a {
+    text-decoration: none;
+    display: inline-block; /* Make the links behave as block-level elements */
+    margin-right: 8px; /* Add space between icons and links */
+}
+/* Style for the company address */
+footer .fa-home,
+footer .fa-phone,
+footer .fa-envelope {
+    color: #39A7FF;
+    margin-right: 2px;
+}
+/* Style for the special links icons */
+footer .fab {
+    font-size: 24px!important;
+    color: #39A7FF;
+}
+footer .fab:hover{
+    color: #4477CE;
+}
+/* Style for the bottom-bar horizontal line */
+.bottom-bar, 
+.cont, 
+.row, 
+.col-md-12, 
+hr{
+  width: 100%; 
+  margin-top: 10px; 
+}
+/* Style for the bottom-bar p */
+.bottom-bar, 
+.cont, .row, 
+.col-md-12, 
+p{
+    text-align: center; 
+    margin-bottom: -5px; 
+  }
+/* Responsive CSS for smaller screens */
+@media (max-width: 768px) {
+    footer .cont-y {
+        padding: 20px 0;
+        margin-left: 20px;
+    }
+    footer .col-md-4 {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+    footer h4 {
+        font-size: 18px;
+    }
+}
+/* Footer-css-end */
+
+/* Css for the (Index-page) */
+/* Style for the icons */
+main{
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(247, 243, 243);
+    box-shadow: #333;
+    
+}
+.icons, h3, h4, i{
+    margin-left: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+i{
+    cursor: pointer;
+    color: #39A7FF;
+}
+.fab, .fa{
+    font-size: 20px;
+}
+i:hover{
+    color: #4477CE;
+}
+/* Style for the footer */
+footer {
+    background-color: #585858;
+    color: #fff;
+    padding: 30px 0;
+}
+/* Style for (register-page) from-css */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    text-align: center;
+  }
+
+  .form-group h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-group .gender-label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .form-group input[type="radio"] {
+    display: none;
+  }
+  .form-group input[type="radio"] + label::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  .form-group input[type="radio"]:checked + label::before {
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+  }
+  .form-group input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Form-Css-end */
+
+/* --------Default styles for larger screens ---------*/
+/*----style for the (Service-page)-course-css---------*/
+#servics{
+    padding: 0;
+    margin: 0;
+    animation: fadeIn 1s ease-in;
+    background-color: #faf8f8d7;
+    }
+    #servics h2{
+    font-family: cambay;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    }
+    #servics h2:hover{
+    color: rgb(145, 35, 35);
+    }
+    #servics p{
+    /* font-family: pop; */
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0px 50px 40px ;
+    }
+    @keyframes fadeIn{
+    0%{
+    opacity: 0;
+    transform: translateY(50px);
+    }
+    100%{
+    opacity: 1;
+    transform: translateY(0px);
+    }
+    }
+/* Styles for servicecontainer */
+.servicecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.colum {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 248);
+    transition: transform 0.4s ease-in;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.colum:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 5px #807c7c;
+}
+.colum h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cambay;
+}
+.colum h2:hover {
+    color: rgb(145, 35, 35);
+}
+.colum p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-align: justify;
+}
+.ico {
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+    .servicecontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .colum {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ico {
+        text-align: center;
+    }
+}/* Servicecontainer-end */
+
+/* Style for the (About-page) maincontainer */
+.maincontent{
+    background-color: #ddd;
+  }
+.aboutinfo, h2, img{
+     margin: 48px;
+}
+
+ /* End-here */
+
+

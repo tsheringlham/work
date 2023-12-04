@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1694078843 source:c:\users\athang\desktop\user input while loop revisition\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

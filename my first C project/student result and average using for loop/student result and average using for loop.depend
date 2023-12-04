@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693476358 source:c:\users\athang\desktop\student result and average using for loop\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

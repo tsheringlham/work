@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693472907 source:c:\users\athang\desktop\average and tank\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

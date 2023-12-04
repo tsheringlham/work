@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692297264 source:c:\users\athang\desktop\my first c project\activity 5(switch)\main.c
+	<stdio.h>
+	<stdbool.h>
+

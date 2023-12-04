@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692129050 source:c:\users\athang\desktop\my first c project\finding x\main.c
+	<stdio.h>
+	<stdbool.h>
+

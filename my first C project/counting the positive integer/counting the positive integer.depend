@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1693816606 source:c:\users\athang\desktop\counting the positive integer\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

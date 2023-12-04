@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1693799440 source:c:\users\athang\desktop\divisible of 100\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

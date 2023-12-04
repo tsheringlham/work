@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1694686518 source:c:\users\athang\desktop\addition of matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

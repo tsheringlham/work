@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1693897107 source:c:\users\athang\desktop\number making square\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693370410 source:c:\users\athang\desktop\theorem\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.nav {
+  overflow: hidden;
+  background-color: #f0f0f0;
+  font-family: Arial;
+  text-align: center;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.img {
+  margin-right: 6%;
+}
+
+.navi {
+  display: inline-block;
+}
+
+/* Links inside the navbar */
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: rgb(12, 11, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .menu {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(7, 7, 7);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to navbar links on hover */
+.nav a:hover,
+.dropdown:hover .menu {
+  background-color: rgb(26, 145, 192);
+}
+
+/* Dropdown content (hidden by default) */
+.drop-con {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drop-con a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color to dropdown links on hover */
+.drop-con a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .drop-con {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0 8%;
+}
+
+.container h2 {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 60px;
+  font-weight: 600;
+  position: relative;
+}
+
+.container h2::after {
+  content: '';
+  background: #303ef7;
+  width: 100px;
+  height: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.service {
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #303ef7;
+}
+
+.service h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service:hover {
+  background: #303ef7;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.service:hover i {
+  color: #fff;
+}
+
+footer {
+  background-color: #f0f0f0;
+  font-family: Arial;
+  position: absolute;
+  display: block;
+  padding: 100px 0.30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 100px; 
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.lik {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.col:nth-child(2),
+.col:nth-child(3) {
+  flex-basis: 15%;
+}
+
+.lik h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #7de211;
+  margin: 20px 0;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #211f1f;
+}
+
+.social-icons li {
+  border-radius: 50%;
+  background: #fff;
+}
+
+.fab {
+  margin-bottom: 20px;
+  font-size: 300%;
+}
+
+hr {
+  width: 95%;
+  border: 0;
+  border-bottom: 1px solid #a61a1a;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.underline {
+  width: 100px;
+  height: 5px;
+  background: #a61a1a;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .footer {
+    width: 50%;
+    top: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

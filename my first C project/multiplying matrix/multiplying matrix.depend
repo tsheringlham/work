@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692920307 source:c:\users\athang\desktop\my first c project\multiplying matrix\main.c
+	<stdio.h>
+	<stdbool.h>
+
